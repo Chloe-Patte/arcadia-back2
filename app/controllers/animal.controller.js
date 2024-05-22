@@ -163,4 +163,6 @@ exports.addImage = (req, res) => {
       password: 'motDePasse12',
     });
   });
+
+  
 };

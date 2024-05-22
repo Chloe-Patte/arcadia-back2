@@ -16,7 +16,14 @@ module.exports = app => {
 
   router.delete("/:id", animal.delete);
 
-  router.delete("/", animal.deleteAll);  
+  router.delete("/", animal.deleteAll); 
+  
+  router.get("/", async (req, res) => {
+    let collection = await db.collection("animals");
+    let results = await collection.find({})
+      .toArray();
+    res.send(results).status(200);
+  });
 
   app.use('/animal', router);
 };
