@@ -27,16 +27,16 @@ Commencez par cloner les deux repositories :
 
 ### Cloner le repository du back-end
 ```
-git clone https://github.com/username/backend-repo.git
+git clone https://github.com/Chloe-Patte/arcadia-back2.git
 ```
 ### Cloner le repository du front-end
 ```
-git clone https://github.com/username/frontend-repo.git
+git clone https://github.com/Chloe-Patte/arcadia-front2.git
 ```
 ## Configuration du back-end : 
 ### Accéder au répertoire du back-end
 ```
-cd backend-repo
+cd arcadia-back2
 ```
 
 ### Installer les dépendances : 
@@ -57,7 +57,7 @@ Le back-end devrait tourner sur http://localhost:8080 🙂
 ## Configuration du front-end : 
 ### Accéder au répertoire front end 
 ```
-cd frontend-repo
+cd arcadia-front2
 ```
 
 ## Installer les dépendances : 
